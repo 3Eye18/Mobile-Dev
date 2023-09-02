@@ -1,6 +1,8 @@
 package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -12,6 +14,11 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i("WeatherActivity", "onCreate");
+        if (savedInstanceState == null) {
+            // Create a new instance of the Fragment you want to add
+            ForecastFragment myFragment = new ForecastFragment();
+            getSupportFragmentManager().beginTransaction().add(R.id.container, myFragment).commit();
+        }
     }
 
     @Override
