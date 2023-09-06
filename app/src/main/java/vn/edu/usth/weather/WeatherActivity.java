@@ -14,11 +14,6 @@ public class WeatherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
         Log.i("WeatherActivity", "onCreate");
-        if (savedInstanceState == null) {
-            // Create a new instance of the Fragment you want to add
-            ForecastFragment myFragment = new ForecastFragment();
-            getSupportFragmentManager().beginTransaction().add(R.id.container, myFragment).commit();
-        }
     }
 
     @Override
