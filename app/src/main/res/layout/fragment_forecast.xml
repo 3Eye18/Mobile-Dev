@@ -38,14 +38,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -79,14 +79,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -120,14 +120,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -161,14 +161,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -202,14 +202,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -243,14 +243,14 @@
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0px"
                 android:layout_weight="1"
                 android:text="@string/thursday"
-                android:gravity="left|center_vertical"/>
+                android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
