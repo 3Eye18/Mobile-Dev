@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="@dimen/forecast_row_height"
         android:orientation="horizontal">
 
         <TextView
@@ -33,17 +33,16 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="@dimen/temperature_and_weather_height"
                 android:layout_marginTop="10dp"
                 android:text="12C"
                 android:gravity="start|center_vertical"/>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="Cloudy"
+                android:layout_height="@dimen/temperature_and_weather_height"
+                android:text="@string/cloudy"
                 android:gravity="start|center_vertical"/>
         </LinearLayout>
     </LinearLayout>
-
 </RelativeLayout>

@@ -7,7 +7,7 @@
 
     <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/tab_layout_height"
         android:id="@+id/tab_layout">
 
         <com.google.android.material.tabs.TabItem

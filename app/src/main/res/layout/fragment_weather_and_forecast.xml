@@ -10,8 +10,8 @@
         android:id="@+id/weather_fragment"
         android:name="vn.edu.usth.weather.WeatherFragment"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_margin="10dp"
+        android:layout_height="@dimen/weather_fragment_height"
+        android:layout_margin="@dimen/fragment_margin"
         tools:layout="@layout/fragment_weather" />
 
     <androidx.fragment.app.FragmentContainerView
@@ -20,9 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/weather_fragment"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginStart="@dimen/fragment_margin"
+        android:layout_marginEnd="@dimen/fragment_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
         tools:layout="@layout/fragment_forecast" />
 
 </RelativeLayout>

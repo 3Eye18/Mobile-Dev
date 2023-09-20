@@ -18,7 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/temperature"
-        android:text="Cloudy" />
+        android:text="@string/cloudy" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -27,8 +27,8 @@
         android:text="Paris" />
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="@dimen/weather_image_icon"
+        android:layout_height="@dimen/weather_image_icon"
         android:layout_centerInParent="true"
         android:src="@drawable/sunny" />
 

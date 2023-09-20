@@ -3,6 +3,7 @@ package vn.edu.usth.weather;
 import android.graphics.Color;
 import android.os.Bundle;
 
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -18,7 +19,7 @@ public class ForecastFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
         // Set the background color of the view
-        view.setBackgroundColor(Color.parseColor("#8DDFCB"));
+        view.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.cyan));
         return view;
     }
 

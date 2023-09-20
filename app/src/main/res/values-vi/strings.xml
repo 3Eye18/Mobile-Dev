@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="thursday">Thứ năm</string>
+    <string name="sunny">Có nắng</string>
+    <string name="cloudy">Có mây</string>
+</resources>
